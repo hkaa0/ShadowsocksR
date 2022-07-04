@@ -5,44 +5,88 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ssr","name":"TG频道:@hkaa0/澳大利亚","server":"45.77.48.44","port":8099,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"eIW0Dnk69454e6nSwuspv9DmS201tQ0D"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_1","server":"213.183.53.177","port":9033,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UTJA57ypk2XKQpnm"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_2","server":"213.183.53.200","port":9088,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"f8npKgNzdkss2ytn"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_3","server":"213.183.53.177","port":9003,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"JdmRK9gMEqFgs8nP"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_4","server":"213.183.53.177","port":9041,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"U6qnYRhfyDmn8sgn"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_5","server":"213.183.53.200","port":9040,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"p9z5BVADH2YFs3MN"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_6","server":"213.183.53.177","port":9008,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"y9VURyNzJWNRYEGQ"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_7","server":"213.183.53.200","port":9027,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"EXN3S3eQpjE7EJu8"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_8","server":"213.183.53.177","port":9010,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"f63gg8EruDnUrmz4"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_9","server":"213.183.53.200","port":9015,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ZpNDDKRu9MagNvaf"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_10","server":"213.183.53.200","port":9084,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"c3NtHJ5ujV2tGDfj"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_11","server":"213.183.53.200","port":9014,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"KnJGad3FqTvjqbaX"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_12","server":"213.183.53.200","port":9060,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ueLXVkvh4hckhErQ"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_13","server":"213.183.53.200","port":9046,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"NvS8N4Vf8qAGPSCL"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_14","server":"213.183.53.177","port":9094,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"rpgbNnU9rDDU4aWZ"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_15","server":"213.183.53.200","port":9037,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"TN2YqghxeFDKZfLU"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_16","server":"213.183.53.200","port":9094,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"rpgbNnU9rDDU4aWZ"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_17","server":"213.183.53.177","port":9060,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ueLXVkvh4hckhErQ"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_18","server":"213.183.53.177","port":9056,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"rNBfNuuANFCAk7KB"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_19","server":"213.183.53.177","port":9018,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"fG2artUmHfNT2cX7"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_20","server":"213.183.53.200","port":9033,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UTJA57ypk2XKQpnm"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_21","server":"213.183.53.200","port":9041,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"U6qnYRhfyDmn8sgn"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_22","server":"213.183.53.200","port":9003,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"JdmRK9gMEqFgs8nP"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_23","server":"213.183.53.177","port":9064,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"cp8pRSUAyLhTfVWH"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_24","server":"213.183.53.200","port":9011,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"M3t2ZEQcMGRWBjRa"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_25","server":"213.183.53.200","port":9038,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"gYCYXfkUQEs2TaJQ"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_26","server":"213.183.53.200","port":9024,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"BejrQvtu9sqUeNuZ"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_27","server":"213.183.53.200","port":9006,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"FAdUvMJUq5vDgKEq"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_28","server":"213.183.53.177","port":9093,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"wfLC2y7rzZyCmuyt"}
-  - {"type":"ssr","name":"TG频道:@hkaa0/荷兰","server":"213.183.59.211","port":9079,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"TPqX8edgbAURcAMb"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_1","server":"213.183.53.177","port":9059,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"9XwYyZsK8SNzQDtY"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/荷兰_1","server":"213.183.59.211","port":9079,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"TPqX8edgbAURcAMb"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_2","server":"213.183.53.177","port":9064,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"cp8pRSUAyLhTfVWH"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_3","server":"213.183.53.200","port":9003,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"JdmRK9gMEqFgs8nP"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_4","server":"213.183.53.200","port":9024,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"BejrQvtu9sqUeNuZ"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_5","server":"213.183.53.200","port":9050,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"FG5ddLsMPbV5CutE"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_6","server":"213.183.53.200","port":9084,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"c3NtHJ5ujV2tGDfj"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_7","server":"213.183.53.200","port":9015,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ZpNDDKRu9MagNvaf"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_8","server":"213.183.53.200","port":9006,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"FAdUvMJUq5vDgKEq"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_9","server":"213.183.53.200","port":9005,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ZET59LF6DvCC8KVt"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_10","server":"213.183.53.177","port":9008,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"y9VURyNzJWNRYEGQ"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_11","server":"213.183.53.177","port":9060,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ueLXVkvh4hckhErQ"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_12","server":"213.183.53.177","port":9093,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"wfLC2y7rzZyCmuyt"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_13","server":"213.183.53.200","port":9040,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"p9z5BVADH2YFs3MN"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_14","server":"213.183.53.200","port":9001,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UkXRsXvR6buDMG2Y"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_15","server":"213.183.53.177","port":9041,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"U6qnYRhfyDmn8sgn"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_16","server":"213.183.53.200","port":9038,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"gYCYXfkUQEs2TaJQ"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_17","server":"213.183.53.177","port":9010,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"f63gg8EruDnUrmz4"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_18","server":"213.183.53.200","port":9070,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"bf7v334KKDV3YDhH"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_19","server":"213.183.53.177","port":9056,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"rNBfNuuANFCAk7KB"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_20","server":"213.183.53.200","port":9097,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"Sn5B7jTqr76aCJT8"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_21","server":"213.183.53.200","port":9014,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"KnJGad3FqTvjqbaX"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_22","server":"213.183.53.200","port":9041,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"U6qnYRhfyDmn8sgn"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_23","server":"213.183.53.177","port":9003,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"JdmRK9gMEqFgs8nP"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_24","server":"213.183.53.177","port":9033,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UTJA57ypk2XKQpnm"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_25","server":"213.183.53.200","port":9088,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"f8npKgNzdkss2ytn"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_26","server":"213.183.53.200","port":9018,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"fG2artUmHfNT2cX7"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_27","server":"213.183.53.177","port":9000,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"a3GFYt36Sm82Vys9"}
+  - {"type":"ssr","name":"TG频道:@hkaa0_1","server":"103.172.116.9","port":9040,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"p9z5BVADH2YFs3MN"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_28","server":"213.183.53.177","port":9094,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"rpgbNnU9rDDU4aWZ"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_29","server":"213.183.53.200","port":9020,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"BNmAXXxAHYpTRdzu"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_30","server":"213.183.53.200","port":9094,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"rpgbNnU9rDDU4aWZ"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/荷兰_2","server":"213.183.59.206","port":9059,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"9XwYyZsK8SNzQDtY"}
+  - {"type":"ssr","name":"TG频道:@hkaa0_2","server":"103.172.116.9","port":9070,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"bf7v334KKDV3YDhH"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_31","server":"213.183.53.200","port":9060,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ueLXVkvh4hckhErQ"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_32","server":"213.183.53.200","port":9011,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"M3t2ZEQcMGRWBjRa"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_33","server":"213.183.53.200","port":9073,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"daFYagqDdBdA6VTX"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_34","server":"213.183.53.200","port":9037,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"TN2YqghxeFDKZfLU"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_35","server":"213.183.53.200","port":9046,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"NvS8N4Vf8qAGPSCL"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_36","server":"213.183.53.200","port":9033,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UTJA57ypk2XKQpnm"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_37","server":"213.183.53.200","port":9026,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"QWDDvVE9npNurQfA"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/澳大利亚_1","server":"45.77.48.44","port":8099,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"eIW0Dnk69454e6nSwuspv9DmS201tQ0D"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_38","server":"213.183.53.200","port":9027,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"EXN3S3eQpjE7EJu8"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_39","server":"213.183.53.177","port":9018,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"fG2artUmHfNT2cX7"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_40","server":"213.183.53.200","port":9037,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"TN2YqghxeFDKZfLU"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_41","server":"213.183.53.177","port":9018,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"fG2artUmHfNT2cX7"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_42","server":"213.183.53.200","port":9015,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ZpNDDKRu9MagNvaf"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_43","server":"213.183.53.177","port":9008,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"y9VURyNzJWNRYEGQ"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_44","server":"213.183.53.177","port":9010,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"f63gg8EruDnUrmz4"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_45","server":"213.183.53.200","port":9041,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"U6qnYRhfyDmn8sgn"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_46","server":"213.183.53.177","port":9064,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"cp8pRSUAyLhTfVWH"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_47","server":"213.183.53.177","port":9094,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"rpgbNnU9rDDU4aWZ"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_48","server":"213.183.53.200","port":9060,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ueLXVkvh4hckhErQ"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_49","server":"213.183.53.200","port":9006,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"FAdUvMJUq5vDgKEq"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_50","server":"213.183.53.200","port":9014,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"KnJGad3FqTvjqbaX"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_51","server":"213.183.53.200","port":9094,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"rpgbNnU9rDDU4aWZ"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_52","server":"213.183.53.177","port":9093,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"wfLC2y7rzZyCmuyt"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_53","server":"213.183.53.177","port":9060,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"ueLXVkvh4hckhErQ"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_54","server":"213.183.53.200","port":9011,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"M3t2ZEQcMGRWBjRa"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_55","server":"213.183.53.177","port":9056,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"rNBfNuuANFCAk7KB"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_56","server":"213.183.53.200","port":9033,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UTJA57ypk2XKQpnm"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_57","server":"213.183.53.200","port":9084,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"c3NtHJ5ujV2tGDfj"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_58","server":"213.183.53.200","port":9038,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"gYCYXfkUQEs2TaJQ"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_59","server":"213.183.53.200","port":9024,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"BejrQvtu9sqUeNuZ"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_60","server":"213.183.53.177","port":9033,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"UTJA57ypk2XKQpnm"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_61","server":"213.183.53.177","port":9003,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"JdmRK9gMEqFgs8nP"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/荷兰_3","server":"213.183.59.211","port":9079,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"TPqX8edgbAURcAMb"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/澳大利亚_2","server":"45.77.48.44","port":8099,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"eIW0Dnk69454e6nSwuspv9DmS201tQ0D"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_62","server":"213.183.53.200","port":9088,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"f8npKgNzdkss2ytn"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_63","server":"213.183.53.177","port":9041,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"U6qnYRhfyDmn8sgn"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_64","server":"213.183.53.200","port":9027,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"EXN3S3eQpjE7EJu8"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_65","server":"213.183.53.200","port":9046,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"NvS8N4Vf8qAGPSCL"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_66","server":"213.183.53.200","port":9003,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"JdmRK9gMEqFgs8nP"}
+  - {"type":"ssr","name":"TG频道:@hkaa0/俄罗斯联邦_67","server":"213.183.53.200","port":9040,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"p9z5BVADH2YFs3MN"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - TG频道:@hkaa0/澳大利亚
       - TG频道:@hkaa0/俄罗斯联邦_1
+      - TG频道:@hkaa0/荷兰_1
       - TG频道:@hkaa0/俄罗斯联邦_2
       - TG频道:@hkaa0/俄罗斯联邦_3
       - TG频道:@hkaa0/俄罗斯联邦_4
@@ -69,16 +113,60 @@ proxy-groups:
       - TG频道:@hkaa0/俄罗斯联邦_25
       - TG频道:@hkaa0/俄罗斯联邦_26
       - TG频道:@hkaa0/俄罗斯联邦_27
+      - TG频道:@hkaa0_1
       - TG频道:@hkaa0/俄罗斯联邦_28
-      - TG频道:@hkaa0/荷兰
+      - TG频道:@hkaa0/俄罗斯联邦_29
+      - TG频道:@hkaa0/俄罗斯联邦_30
+      - TG频道:@hkaa0/荷兰_2
+      - TG频道:@hkaa0_2
+      - TG频道:@hkaa0/俄罗斯联邦_31
+      - TG频道:@hkaa0/俄罗斯联邦_32
+      - TG频道:@hkaa0/俄罗斯联邦_33
+      - TG频道:@hkaa0/俄罗斯联邦_34
+      - TG频道:@hkaa0/俄罗斯联邦_35
+      - TG频道:@hkaa0/俄罗斯联邦_36
+      - TG频道:@hkaa0/俄罗斯联邦_37
+      - TG频道:@hkaa0/澳大利亚_1
+      - TG频道:@hkaa0/俄罗斯联邦_38
+      - TG频道:@hkaa0/俄罗斯联邦_39
+      - TG频道:@hkaa0/俄罗斯联邦_40
+      - TG频道:@hkaa0/俄罗斯联邦_41
+      - TG频道:@hkaa0/俄罗斯联邦_42
+      - TG频道:@hkaa0/俄罗斯联邦_43
+      - TG频道:@hkaa0/俄罗斯联邦_44
+      - TG频道:@hkaa0/俄罗斯联邦_45
+      - TG频道:@hkaa0/俄罗斯联邦_46
+      - TG频道:@hkaa0/俄罗斯联邦_47
+      - TG频道:@hkaa0/俄罗斯联邦_48
+      - TG频道:@hkaa0/俄罗斯联邦_49
+      - TG频道:@hkaa0/俄罗斯联邦_50
+      - TG频道:@hkaa0/俄罗斯联邦_51
+      - TG频道:@hkaa0/俄罗斯联邦_52
+      - TG频道:@hkaa0/俄罗斯联邦_53
+      - TG频道:@hkaa0/俄罗斯联邦_54
+      - TG频道:@hkaa0/俄罗斯联邦_55
+      - TG频道:@hkaa0/俄罗斯联邦_56
+      - TG频道:@hkaa0/俄罗斯联邦_57
+      - TG频道:@hkaa0/俄罗斯联邦_58
+      - TG频道:@hkaa0/俄罗斯联邦_59
+      - TG频道:@hkaa0/俄罗斯联邦_60
+      - TG频道:@hkaa0/俄罗斯联邦_61
+      - TG频道:@hkaa0/荷兰_3
+      - TG频道:@hkaa0/澳大利亚_2
+      - TG频道:@hkaa0/俄罗斯联邦_62
+      - TG频道:@hkaa0/俄罗斯联邦_63
+      - TG频道:@hkaa0/俄罗斯联邦_64
+      - TG频道:@hkaa0/俄罗斯联邦_65
+      - TG频道:@hkaa0/俄罗斯联邦_66
+      - TG频道:@hkaa0/俄罗斯联邦_67
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - TG频道:@hkaa0/澳大利亚
       - TG频道:@hkaa0/俄罗斯联邦_1
+      - TG频道:@hkaa0/荷兰_1
       - TG频道:@hkaa0/俄罗斯联邦_2
       - TG频道:@hkaa0/俄罗斯联邦_3
       - TG频道:@hkaa0/俄罗斯联邦_4
@@ -105,16 +193,60 @@ proxy-groups:
       - TG频道:@hkaa0/俄罗斯联邦_25
       - TG频道:@hkaa0/俄罗斯联邦_26
       - TG频道:@hkaa0/俄罗斯联邦_27
+      - TG频道:@hkaa0_1
       - TG频道:@hkaa0/俄罗斯联邦_28
-      - TG频道:@hkaa0/荷兰
+      - TG频道:@hkaa0/俄罗斯联邦_29
+      - TG频道:@hkaa0/俄罗斯联邦_30
+      - TG频道:@hkaa0/荷兰_2
+      - TG频道:@hkaa0_2
+      - TG频道:@hkaa0/俄罗斯联邦_31
+      - TG频道:@hkaa0/俄罗斯联邦_32
+      - TG频道:@hkaa0/俄罗斯联邦_33
+      - TG频道:@hkaa0/俄罗斯联邦_34
+      - TG频道:@hkaa0/俄罗斯联邦_35
+      - TG频道:@hkaa0/俄罗斯联邦_36
+      - TG频道:@hkaa0/俄罗斯联邦_37
+      - TG频道:@hkaa0/澳大利亚_1
+      - TG频道:@hkaa0/俄罗斯联邦_38
+      - TG频道:@hkaa0/俄罗斯联邦_39
+      - TG频道:@hkaa0/俄罗斯联邦_40
+      - TG频道:@hkaa0/俄罗斯联邦_41
+      - TG频道:@hkaa0/俄罗斯联邦_42
+      - TG频道:@hkaa0/俄罗斯联邦_43
+      - TG频道:@hkaa0/俄罗斯联邦_44
+      - TG频道:@hkaa0/俄罗斯联邦_45
+      - TG频道:@hkaa0/俄罗斯联邦_46
+      - TG频道:@hkaa0/俄罗斯联邦_47
+      - TG频道:@hkaa0/俄罗斯联邦_48
+      - TG频道:@hkaa0/俄罗斯联邦_49
+      - TG频道:@hkaa0/俄罗斯联邦_50
+      - TG频道:@hkaa0/俄罗斯联邦_51
+      - TG频道:@hkaa0/俄罗斯联邦_52
+      - TG频道:@hkaa0/俄罗斯联邦_53
+      - TG频道:@hkaa0/俄罗斯联邦_54
+      - TG频道:@hkaa0/俄罗斯联邦_55
+      - TG频道:@hkaa0/俄罗斯联邦_56
+      - TG频道:@hkaa0/俄罗斯联邦_57
+      - TG频道:@hkaa0/俄罗斯联邦_58
+      - TG频道:@hkaa0/俄罗斯联邦_59
+      - TG频道:@hkaa0/俄罗斯联邦_60
+      - TG频道:@hkaa0/俄罗斯联邦_61
+      - TG频道:@hkaa0/荷兰_3
+      - TG频道:@hkaa0/澳大利亚_2
+      - TG频道:@hkaa0/俄罗斯联邦_62
+      - TG频道:@hkaa0/俄罗斯联邦_63
+      - TG频道:@hkaa0/俄罗斯联邦_64
+      - TG频道:@hkaa0/俄罗斯联邦_65
+      - TG频道:@hkaa0/俄罗斯联邦_66
+      - TG频道:@hkaa0/俄罗斯联邦_67
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG频道:@hkaa0/澳大利亚
       - TG频道:@hkaa0/俄罗斯联邦_1
+      - TG频道:@hkaa0/荷兰_1
       - TG频道:@hkaa0/俄罗斯联邦_2
       - TG频道:@hkaa0/俄罗斯联邦_3
       - TG频道:@hkaa0/俄罗斯联邦_4
@@ -141,15 +273,59 @@ proxy-groups:
       - TG频道:@hkaa0/俄罗斯联邦_25
       - TG频道:@hkaa0/俄罗斯联邦_26
       - TG频道:@hkaa0/俄罗斯联邦_27
+      - TG频道:@hkaa0_1
       - TG频道:@hkaa0/俄罗斯联邦_28
-      - TG频道:@hkaa0/荷兰
+      - TG频道:@hkaa0/俄罗斯联邦_29
+      - TG频道:@hkaa0/俄罗斯联邦_30
+      - TG频道:@hkaa0/荷兰_2
+      - TG频道:@hkaa0_2
+      - TG频道:@hkaa0/俄罗斯联邦_31
+      - TG频道:@hkaa0/俄罗斯联邦_32
+      - TG频道:@hkaa0/俄罗斯联邦_33
+      - TG频道:@hkaa0/俄罗斯联邦_34
+      - TG频道:@hkaa0/俄罗斯联邦_35
+      - TG频道:@hkaa0/俄罗斯联邦_36
+      - TG频道:@hkaa0/俄罗斯联邦_37
+      - TG频道:@hkaa0/澳大利亚_1
+      - TG频道:@hkaa0/俄罗斯联邦_38
+      - TG频道:@hkaa0/俄罗斯联邦_39
+      - TG频道:@hkaa0/俄罗斯联邦_40
+      - TG频道:@hkaa0/俄罗斯联邦_41
+      - TG频道:@hkaa0/俄罗斯联邦_42
+      - TG频道:@hkaa0/俄罗斯联邦_43
+      - TG频道:@hkaa0/俄罗斯联邦_44
+      - TG频道:@hkaa0/俄罗斯联邦_45
+      - TG频道:@hkaa0/俄罗斯联邦_46
+      - TG频道:@hkaa0/俄罗斯联邦_47
+      - TG频道:@hkaa0/俄罗斯联邦_48
+      - TG频道:@hkaa0/俄罗斯联邦_49
+      - TG频道:@hkaa0/俄罗斯联邦_50
+      - TG频道:@hkaa0/俄罗斯联邦_51
+      - TG频道:@hkaa0/俄罗斯联邦_52
+      - TG频道:@hkaa0/俄罗斯联邦_53
+      - TG频道:@hkaa0/俄罗斯联邦_54
+      - TG频道:@hkaa0/俄罗斯联邦_55
+      - TG频道:@hkaa0/俄罗斯联邦_56
+      - TG频道:@hkaa0/俄罗斯联邦_57
+      - TG频道:@hkaa0/俄罗斯联邦_58
+      - TG频道:@hkaa0/俄罗斯联邦_59
+      - TG频道:@hkaa0/俄罗斯联邦_60
+      - TG频道:@hkaa0/俄罗斯联邦_61
+      - TG频道:@hkaa0/荷兰_3
+      - TG频道:@hkaa0/澳大利亚_2
+      - TG频道:@hkaa0/俄罗斯联邦_62
+      - TG频道:@hkaa0/俄罗斯联邦_63
+      - TG频道:@hkaa0/俄罗斯联邦_64
+      - TG频道:@hkaa0/俄罗斯联邦_65
+      - TG频道:@hkaa0/俄罗斯联邦_66
+      - TG频道:@hkaa0/俄罗斯联邦_67
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG频道:@hkaa0/澳大利亚
       - TG频道:@hkaa0/俄罗斯联邦_1
+      - TG频道:@hkaa0/荷兰_1
       - TG频道:@hkaa0/俄罗斯联邦_2
       - TG频道:@hkaa0/俄罗斯联邦_3
       - TG频道:@hkaa0/俄罗斯联邦_4
@@ -176,15 +352,59 @@ proxy-groups:
       - TG频道:@hkaa0/俄罗斯联邦_25
       - TG频道:@hkaa0/俄罗斯联邦_26
       - TG频道:@hkaa0/俄罗斯联邦_27
+      - TG频道:@hkaa0_1
       - TG频道:@hkaa0/俄罗斯联邦_28
-      - TG频道:@hkaa0/荷兰
+      - TG频道:@hkaa0/俄罗斯联邦_29
+      - TG频道:@hkaa0/俄罗斯联邦_30
+      - TG频道:@hkaa0/荷兰_2
+      - TG频道:@hkaa0_2
+      - TG频道:@hkaa0/俄罗斯联邦_31
+      - TG频道:@hkaa0/俄罗斯联邦_32
+      - TG频道:@hkaa0/俄罗斯联邦_33
+      - TG频道:@hkaa0/俄罗斯联邦_34
+      - TG频道:@hkaa0/俄罗斯联邦_35
+      - TG频道:@hkaa0/俄罗斯联邦_36
+      - TG频道:@hkaa0/俄罗斯联邦_37
+      - TG频道:@hkaa0/澳大利亚_1
+      - TG频道:@hkaa0/俄罗斯联邦_38
+      - TG频道:@hkaa0/俄罗斯联邦_39
+      - TG频道:@hkaa0/俄罗斯联邦_40
+      - TG频道:@hkaa0/俄罗斯联邦_41
+      - TG频道:@hkaa0/俄罗斯联邦_42
+      - TG频道:@hkaa0/俄罗斯联邦_43
+      - TG频道:@hkaa0/俄罗斯联邦_44
+      - TG频道:@hkaa0/俄罗斯联邦_45
+      - TG频道:@hkaa0/俄罗斯联邦_46
+      - TG频道:@hkaa0/俄罗斯联邦_47
+      - TG频道:@hkaa0/俄罗斯联邦_48
+      - TG频道:@hkaa0/俄罗斯联邦_49
+      - TG频道:@hkaa0/俄罗斯联邦_50
+      - TG频道:@hkaa0/俄罗斯联邦_51
+      - TG频道:@hkaa0/俄罗斯联邦_52
+      - TG频道:@hkaa0/俄罗斯联邦_53
+      - TG频道:@hkaa0/俄罗斯联邦_54
+      - TG频道:@hkaa0/俄罗斯联邦_55
+      - TG频道:@hkaa0/俄罗斯联邦_56
+      - TG频道:@hkaa0/俄罗斯联邦_57
+      - TG频道:@hkaa0/俄罗斯联邦_58
+      - TG频道:@hkaa0/俄罗斯联邦_59
+      - TG频道:@hkaa0/俄罗斯联邦_60
+      - TG频道:@hkaa0/俄罗斯联邦_61
+      - TG频道:@hkaa0/荷兰_3
+      - TG频道:@hkaa0/澳大利亚_2
+      - TG频道:@hkaa0/俄罗斯联邦_62
+      - TG频道:@hkaa0/俄罗斯联邦_63
+      - TG频道:@hkaa0/俄罗斯联邦_64
+      - TG频道:@hkaa0/俄罗斯联邦_65
+      - TG频道:@hkaa0/俄罗斯联邦_66
+      - TG频道:@hkaa0/俄罗斯联邦_67
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - TG频道:@hkaa0/澳大利亚
       - TG频道:@hkaa0/俄罗斯联邦_1
+      - TG频道:@hkaa0/荷兰_1
       - TG频道:@hkaa0/俄罗斯联邦_2
       - TG频道:@hkaa0/俄罗斯联邦_3
       - TG频道:@hkaa0/俄罗斯联邦_4
@@ -211,15 +431,59 @@ proxy-groups:
       - TG频道:@hkaa0/俄罗斯联邦_25
       - TG频道:@hkaa0/俄罗斯联邦_26
       - TG频道:@hkaa0/俄罗斯联邦_27
+      - TG频道:@hkaa0_1
       - TG频道:@hkaa0/俄罗斯联邦_28
-      - TG频道:@hkaa0/荷兰
+      - TG频道:@hkaa0/俄罗斯联邦_29
+      - TG频道:@hkaa0/俄罗斯联邦_30
+      - TG频道:@hkaa0/荷兰_2
+      - TG频道:@hkaa0_2
+      - TG频道:@hkaa0/俄罗斯联邦_31
+      - TG频道:@hkaa0/俄罗斯联邦_32
+      - TG频道:@hkaa0/俄罗斯联邦_33
+      - TG频道:@hkaa0/俄罗斯联邦_34
+      - TG频道:@hkaa0/俄罗斯联邦_35
+      - TG频道:@hkaa0/俄罗斯联邦_36
+      - TG频道:@hkaa0/俄罗斯联邦_37
+      - TG频道:@hkaa0/澳大利亚_1
+      - TG频道:@hkaa0/俄罗斯联邦_38
+      - TG频道:@hkaa0/俄罗斯联邦_39
+      - TG频道:@hkaa0/俄罗斯联邦_40
+      - TG频道:@hkaa0/俄罗斯联邦_41
+      - TG频道:@hkaa0/俄罗斯联邦_42
+      - TG频道:@hkaa0/俄罗斯联邦_43
+      - TG频道:@hkaa0/俄罗斯联邦_44
+      - TG频道:@hkaa0/俄罗斯联邦_45
+      - TG频道:@hkaa0/俄罗斯联邦_46
+      - TG频道:@hkaa0/俄罗斯联邦_47
+      - TG频道:@hkaa0/俄罗斯联邦_48
+      - TG频道:@hkaa0/俄罗斯联邦_49
+      - TG频道:@hkaa0/俄罗斯联邦_50
+      - TG频道:@hkaa0/俄罗斯联邦_51
+      - TG频道:@hkaa0/俄罗斯联邦_52
+      - TG频道:@hkaa0/俄罗斯联邦_53
+      - TG频道:@hkaa0/俄罗斯联邦_54
+      - TG频道:@hkaa0/俄罗斯联邦_55
+      - TG频道:@hkaa0/俄罗斯联邦_56
+      - TG频道:@hkaa0/俄罗斯联邦_57
+      - TG频道:@hkaa0/俄罗斯联邦_58
+      - TG频道:@hkaa0/俄罗斯联邦_59
+      - TG频道:@hkaa0/俄罗斯联邦_60
+      - TG频道:@hkaa0/俄罗斯联邦_61
+      - TG频道:@hkaa0/荷兰_3
+      - TG频道:@hkaa0/澳大利亚_2
+      - TG频道:@hkaa0/俄罗斯联邦_62
+      - TG频道:@hkaa0/俄罗斯联邦_63
+      - TG频道:@hkaa0/俄罗斯联邦_64
+      - TG频道:@hkaa0/俄罗斯联邦_65
+      - TG频道:@hkaa0/俄罗斯联邦_66
+      - TG频道:@hkaa0/俄罗斯联邦_67
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG频道:@hkaa0/澳大利亚
       - TG频道:@hkaa0/俄罗斯联邦_1
+      - TG频道:@hkaa0/荷兰_1
       - TG频道:@hkaa0/俄罗斯联邦_2
       - TG频道:@hkaa0/俄罗斯联邦_3
       - TG频道:@hkaa0/俄罗斯联邦_4
@@ -246,8 +510,52 @@ proxy-groups:
       - TG频道:@hkaa0/俄罗斯联邦_25
       - TG频道:@hkaa0/俄罗斯联邦_26
       - TG频道:@hkaa0/俄罗斯联邦_27
+      - TG频道:@hkaa0_1
       - TG频道:@hkaa0/俄罗斯联邦_28
-      - TG频道:@hkaa0/荷兰
+      - TG频道:@hkaa0/俄罗斯联邦_29
+      - TG频道:@hkaa0/俄罗斯联邦_30
+      - TG频道:@hkaa0/荷兰_2
+      - TG频道:@hkaa0_2
+      - TG频道:@hkaa0/俄罗斯联邦_31
+      - TG频道:@hkaa0/俄罗斯联邦_32
+      - TG频道:@hkaa0/俄罗斯联邦_33
+      - TG频道:@hkaa0/俄罗斯联邦_34
+      - TG频道:@hkaa0/俄罗斯联邦_35
+      - TG频道:@hkaa0/俄罗斯联邦_36
+      - TG频道:@hkaa0/俄罗斯联邦_37
+      - TG频道:@hkaa0/澳大利亚_1
+      - TG频道:@hkaa0/俄罗斯联邦_38
+      - TG频道:@hkaa0/俄罗斯联邦_39
+      - TG频道:@hkaa0/俄罗斯联邦_40
+      - TG频道:@hkaa0/俄罗斯联邦_41
+      - TG频道:@hkaa0/俄罗斯联邦_42
+      - TG频道:@hkaa0/俄罗斯联邦_43
+      - TG频道:@hkaa0/俄罗斯联邦_44
+      - TG频道:@hkaa0/俄罗斯联邦_45
+      - TG频道:@hkaa0/俄罗斯联邦_46
+      - TG频道:@hkaa0/俄罗斯联邦_47
+      - TG频道:@hkaa0/俄罗斯联邦_48
+      - TG频道:@hkaa0/俄罗斯联邦_49
+      - TG频道:@hkaa0/俄罗斯联邦_50
+      - TG频道:@hkaa0/俄罗斯联邦_51
+      - TG频道:@hkaa0/俄罗斯联邦_52
+      - TG频道:@hkaa0/俄罗斯联邦_53
+      - TG频道:@hkaa0/俄罗斯联邦_54
+      - TG频道:@hkaa0/俄罗斯联邦_55
+      - TG频道:@hkaa0/俄罗斯联邦_56
+      - TG频道:@hkaa0/俄罗斯联邦_57
+      - TG频道:@hkaa0/俄罗斯联邦_58
+      - TG频道:@hkaa0/俄罗斯联邦_59
+      - TG频道:@hkaa0/俄罗斯联邦_60
+      - TG频道:@hkaa0/俄罗斯联邦_61
+      - TG频道:@hkaa0/荷兰_3
+      - TG频道:@hkaa0/澳大利亚_2
+      - TG频道:@hkaa0/俄罗斯联邦_62
+      - TG频道:@hkaa0/俄罗斯联邦_63
+      - TG频道:@hkaa0/俄罗斯联邦_64
+      - TG频道:@hkaa0/俄罗斯联邦_65
+      - TG频道:@hkaa0/俄罗斯联邦_66
+      - TG频道:@hkaa0/俄罗斯联邦_67
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -270,8 +578,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TG频道:@hkaa0/澳大利亚
       - TG频道:@hkaa0/俄罗斯联邦_1
+      - TG频道:@hkaa0/荷兰_1
       - TG频道:@hkaa0/俄罗斯联邦_2
       - TG频道:@hkaa0/俄罗斯联邦_3
       - TG频道:@hkaa0/俄罗斯联邦_4
@@ -298,8 +606,52 @@ proxy-groups:
       - TG频道:@hkaa0/俄罗斯联邦_25
       - TG频道:@hkaa0/俄罗斯联邦_26
       - TG频道:@hkaa0/俄罗斯联邦_27
+      - TG频道:@hkaa0_1
       - TG频道:@hkaa0/俄罗斯联邦_28
-      - TG频道:@hkaa0/荷兰
+      - TG频道:@hkaa0/俄罗斯联邦_29
+      - TG频道:@hkaa0/俄罗斯联邦_30
+      - TG频道:@hkaa0/荷兰_2
+      - TG频道:@hkaa0_2
+      - TG频道:@hkaa0/俄罗斯联邦_31
+      - TG频道:@hkaa0/俄罗斯联邦_32
+      - TG频道:@hkaa0/俄罗斯联邦_33
+      - TG频道:@hkaa0/俄罗斯联邦_34
+      - TG频道:@hkaa0/俄罗斯联邦_35
+      - TG频道:@hkaa0/俄罗斯联邦_36
+      - TG频道:@hkaa0/俄罗斯联邦_37
+      - TG频道:@hkaa0/澳大利亚_1
+      - TG频道:@hkaa0/俄罗斯联邦_38
+      - TG频道:@hkaa0/俄罗斯联邦_39
+      - TG频道:@hkaa0/俄罗斯联邦_40
+      - TG频道:@hkaa0/俄罗斯联邦_41
+      - TG频道:@hkaa0/俄罗斯联邦_42
+      - TG频道:@hkaa0/俄罗斯联邦_43
+      - TG频道:@hkaa0/俄罗斯联邦_44
+      - TG频道:@hkaa0/俄罗斯联邦_45
+      - TG频道:@hkaa0/俄罗斯联邦_46
+      - TG频道:@hkaa0/俄罗斯联邦_47
+      - TG频道:@hkaa0/俄罗斯联邦_48
+      - TG频道:@hkaa0/俄罗斯联邦_49
+      - TG频道:@hkaa0/俄罗斯联邦_50
+      - TG频道:@hkaa0/俄罗斯联邦_51
+      - TG频道:@hkaa0/俄罗斯联邦_52
+      - TG频道:@hkaa0/俄罗斯联邦_53
+      - TG频道:@hkaa0/俄罗斯联邦_54
+      - TG频道:@hkaa0/俄罗斯联邦_55
+      - TG频道:@hkaa0/俄罗斯联邦_56
+      - TG频道:@hkaa0/俄罗斯联邦_57
+      - TG频道:@hkaa0/俄罗斯联邦_58
+      - TG频道:@hkaa0/俄罗斯联邦_59
+      - TG频道:@hkaa0/俄罗斯联邦_60
+      - TG频道:@hkaa0/俄罗斯联邦_61
+      - TG频道:@hkaa0/荷兰_3
+      - TG频道:@hkaa0/澳大利亚_2
+      - TG频道:@hkaa0/俄罗斯联邦_62
+      - TG频道:@hkaa0/俄罗斯联邦_63
+      - TG频道:@hkaa0/俄罗斯联邦_64
+      - TG频道:@hkaa0/俄罗斯联邦_65
+      - TG频道:@hkaa0/俄罗斯联邦_66
+      - TG频道:@hkaa0/俄罗斯联邦_67
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
