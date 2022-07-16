@@ -5,214 +5,149 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ssr","name":"TG频道:@hkaa0|美国_1","server":"us-am32-5.eqnode.net","port":8081,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"YFVrXZgRo"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|中国_1","server":"14.29.124.168","port":24001,"protocol":"origin","cipher":"aes-128-cfb","obfs":"plain","password":"QazEdcTgb159@$*"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|美国_2","server":"c.usa.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|香港_1","server":"a.hk.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|美国_3","server":"a.de.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|美国_4","server":"a.uk.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|美国_5","server":"a.usa.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|美国_6","server":"b.usa.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|美国_7","server":"c.usa.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|美国_8","server":"d.usa.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|台湾_1","server":"a.jp.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|台湾_2","server":"b.jp.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|台湾_3","server":"a.sp.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|台湾_4","server":"a.kr.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|台湾_5","server":"a.tw.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|台湾_6","server":"b.tw.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|美国_9","server":"a.ca.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|台湾_7","server":"a.th.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|台湾_8","server":"a.rus.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|台湾_9","server":"a.in.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|台湾_10","server":"a.br.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|香港_2","server":"a.il.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|台湾_11","server":"a.za.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|中国_2","server":"a.sh.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
-  - {"type":"ssr","name":"TG频道:@hkaa0|中国_3","server":"a.bj.hideu.tw","port":10629,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":".hideu0430.","protocol-param":"258433:lUoukm"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|中国_1","server":"cmrelay01.downsite.xyz","port":3701,"protocol":"auth_aes128_sha1","cipher":"chacha20-ietf","obfs":"plain","password":"jFa4F1","obfs-param":"V2tWTk1XUkdjRlJQVkVwcVVucFdkbGRXYUZJ","protocol-param":"67249:ojZU44"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|中国_2","server":"cmrelay01.downsite.xyz","port":6705,"protocol":"auth_aes128_sha1","cipher":"chacha20-ietf","obfs":"plain","password":"jFa4F1","obfs-param":"V2tWTk1XUkdjRlJQVkVwcVVucFdkbGRXYUZJ","protocol-param":"67249:ojZU44"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|俄罗斯联邦_1","server":"194.50.171.143","port":9805,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
+    v6"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|俄罗斯联邦_2","server":"194.156.121.15","port":9805,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
+    v6"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|俄罗斯联邦_3","server":"46.29.160.120","port":9805,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
+    v6"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|俄罗斯联邦_4","server":"45.89.229.244","port":9805,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
+    v6"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|俄罗斯联邦_5","server":"45.89.228.56","port":9805,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
+    f7"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|俄罗斯联邦_6","server":"194.50.170.116","port":9805,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
+    f7"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|俄罗斯联邦_7","server":"45.130.146.120","port":9805,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
+    f7"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|俄罗斯联邦_8","server":"188.119.64.54","port":9805,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
+    f7"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|俄罗斯联邦_9","server":"188.119.64.24","port":9805,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
+    s6"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|俄罗斯联邦_10","server":"194.156.121.250","port":9805,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
+    s6"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|俄罗斯联邦_11","server":"194.156.120.31","port":9805,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
+    s6"}
+  - {"type":"ssr","name":"TG频道:@hkaa0|俄罗斯联邦_12","server":"45.8.159.140","port":9805,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"lncn.org
+    s6"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - TG频道:@hkaa0|美国_1
       - TG频道:@hkaa0|中国_1
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|香港_1
-      - TG频道:@hkaa0|美国_3
-      - TG频道:@hkaa0|美国_4
-      - TG频道:@hkaa0|美国_5
-      - TG频道:@hkaa0|美国_6
-      - TG频道:@hkaa0|美国_7
-      - TG频道:@hkaa0|美国_8
-      - TG频道:@hkaa0|台湾_1
-      - TG频道:@hkaa0|台湾_2
-      - TG频道:@hkaa0|台湾_3
-      - TG频道:@hkaa0|台湾_4
-      - TG频道:@hkaa0|台湾_5
-      - TG频道:@hkaa0|台湾_6
-      - TG频道:@hkaa0|美国_9
-      - TG频道:@hkaa0|台湾_7
-      - TG频道:@hkaa0|台湾_8
-      - TG频道:@hkaa0|台湾_9
-      - TG频道:@hkaa0|台湾_10
-      - TG频道:@hkaa0|香港_2
-      - TG频道:@hkaa0|台湾_11
       - TG频道:@hkaa0|中国_2
-      - TG频道:@hkaa0|中国_3
+      - TG频道:@hkaa0|俄罗斯联邦_1
+      - TG频道:@hkaa0|俄罗斯联邦_2
+      - TG频道:@hkaa0|俄罗斯联邦_3
+      - TG频道:@hkaa0|俄罗斯联邦_4
+      - TG频道:@hkaa0|俄罗斯联邦_5
+      - TG频道:@hkaa0|俄罗斯联邦_6
+      - TG频道:@hkaa0|俄罗斯联邦_7
+      - TG频道:@hkaa0|俄罗斯联邦_8
+      - TG频道:@hkaa0|俄罗斯联邦_9
+      - TG频道:@hkaa0|俄罗斯联邦_10
+      - TG频道:@hkaa0|俄罗斯联邦_11
+      - TG频道:@hkaa0|俄罗斯联邦_12
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - TG频道:@hkaa0|美国_1
       - TG频道:@hkaa0|中国_1
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|香港_1
-      - TG频道:@hkaa0|美国_3
-      - TG频道:@hkaa0|美国_4
-      - TG频道:@hkaa0|美国_5
-      - TG频道:@hkaa0|美国_6
-      - TG频道:@hkaa0|美国_7
-      - TG频道:@hkaa0|美国_8
-      - TG频道:@hkaa0|台湾_1
-      - TG频道:@hkaa0|台湾_2
-      - TG频道:@hkaa0|台湾_3
-      - TG频道:@hkaa0|台湾_4
-      - TG频道:@hkaa0|台湾_5
-      - TG频道:@hkaa0|台湾_6
-      - TG频道:@hkaa0|美国_9
-      - TG频道:@hkaa0|台湾_7
-      - TG频道:@hkaa0|台湾_8
-      - TG频道:@hkaa0|台湾_9
-      - TG频道:@hkaa0|台湾_10
-      - TG频道:@hkaa0|香港_2
-      - TG频道:@hkaa0|台湾_11
       - TG频道:@hkaa0|中国_2
-      - TG频道:@hkaa0|中国_3
+      - TG频道:@hkaa0|俄罗斯联邦_1
+      - TG频道:@hkaa0|俄罗斯联邦_2
+      - TG频道:@hkaa0|俄罗斯联邦_3
+      - TG频道:@hkaa0|俄罗斯联邦_4
+      - TG频道:@hkaa0|俄罗斯联邦_5
+      - TG频道:@hkaa0|俄罗斯联邦_6
+      - TG频道:@hkaa0|俄罗斯联邦_7
+      - TG频道:@hkaa0|俄罗斯联邦_8
+      - TG频道:@hkaa0|俄罗斯联邦_9
+      - TG频道:@hkaa0|俄罗斯联邦_10
+      - TG频道:@hkaa0|俄罗斯联邦_11
+      - TG频道:@hkaa0|俄罗斯联邦_12
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG频道:@hkaa0|美国_1
       - TG频道:@hkaa0|中国_1
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|香港_1
-      - TG频道:@hkaa0|美国_3
-      - TG频道:@hkaa0|美国_4
-      - TG频道:@hkaa0|美国_5
-      - TG频道:@hkaa0|美国_6
-      - TG频道:@hkaa0|美国_7
-      - TG频道:@hkaa0|美国_8
-      - TG频道:@hkaa0|台湾_1
-      - TG频道:@hkaa0|台湾_2
-      - TG频道:@hkaa0|台湾_3
-      - TG频道:@hkaa0|台湾_4
-      - TG频道:@hkaa0|台湾_5
-      - TG频道:@hkaa0|台湾_6
-      - TG频道:@hkaa0|美国_9
-      - TG频道:@hkaa0|台湾_7
-      - TG频道:@hkaa0|台湾_8
-      - TG频道:@hkaa0|台湾_9
-      - TG频道:@hkaa0|台湾_10
-      - TG频道:@hkaa0|香港_2
-      - TG频道:@hkaa0|台湾_11
       - TG频道:@hkaa0|中国_2
-      - TG频道:@hkaa0|中国_3
+      - TG频道:@hkaa0|俄罗斯联邦_1
+      - TG频道:@hkaa0|俄罗斯联邦_2
+      - TG频道:@hkaa0|俄罗斯联邦_3
+      - TG频道:@hkaa0|俄罗斯联邦_4
+      - TG频道:@hkaa0|俄罗斯联邦_5
+      - TG频道:@hkaa0|俄罗斯联邦_6
+      - TG频道:@hkaa0|俄罗斯联邦_7
+      - TG频道:@hkaa0|俄罗斯联邦_8
+      - TG频道:@hkaa0|俄罗斯联邦_9
+      - TG频道:@hkaa0|俄罗斯联邦_10
+      - TG频道:@hkaa0|俄罗斯联邦_11
+      - TG频道:@hkaa0|俄罗斯联邦_12
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG频道:@hkaa0|美国_1
       - TG频道:@hkaa0|中国_1
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|香港_1
-      - TG频道:@hkaa0|美国_3
-      - TG频道:@hkaa0|美国_4
-      - TG频道:@hkaa0|美国_5
-      - TG频道:@hkaa0|美国_6
-      - TG频道:@hkaa0|美国_7
-      - TG频道:@hkaa0|美国_8
-      - TG频道:@hkaa0|台湾_1
-      - TG频道:@hkaa0|台湾_2
-      - TG频道:@hkaa0|台湾_3
-      - TG频道:@hkaa0|台湾_4
-      - TG频道:@hkaa0|台湾_5
-      - TG频道:@hkaa0|台湾_6
-      - TG频道:@hkaa0|美国_9
-      - TG频道:@hkaa0|台湾_7
-      - TG频道:@hkaa0|台湾_8
-      - TG频道:@hkaa0|台湾_9
-      - TG频道:@hkaa0|台湾_10
-      - TG频道:@hkaa0|香港_2
-      - TG频道:@hkaa0|台湾_11
       - TG频道:@hkaa0|中国_2
-      - TG频道:@hkaa0|中国_3
+      - TG频道:@hkaa0|俄罗斯联邦_1
+      - TG频道:@hkaa0|俄罗斯联邦_2
+      - TG频道:@hkaa0|俄罗斯联邦_3
+      - TG频道:@hkaa0|俄罗斯联邦_4
+      - TG频道:@hkaa0|俄罗斯联邦_5
+      - TG频道:@hkaa0|俄罗斯联邦_6
+      - TG频道:@hkaa0|俄罗斯联邦_7
+      - TG频道:@hkaa0|俄罗斯联邦_8
+      - TG频道:@hkaa0|俄罗斯联邦_9
+      - TG频道:@hkaa0|俄罗斯联邦_10
+      - TG频道:@hkaa0|俄罗斯联邦_11
+      - TG频道:@hkaa0|俄罗斯联邦_12
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - TG频道:@hkaa0|美国_1
       - TG频道:@hkaa0|中国_1
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|香港_1
-      - TG频道:@hkaa0|美国_3
-      - TG频道:@hkaa0|美国_4
-      - TG频道:@hkaa0|美国_5
-      - TG频道:@hkaa0|美国_6
-      - TG频道:@hkaa0|美国_7
-      - TG频道:@hkaa0|美国_8
-      - TG频道:@hkaa0|台湾_1
-      - TG频道:@hkaa0|台湾_2
-      - TG频道:@hkaa0|台湾_3
-      - TG频道:@hkaa0|台湾_4
-      - TG频道:@hkaa0|台湾_5
-      - TG频道:@hkaa0|台湾_6
-      - TG频道:@hkaa0|美国_9
-      - TG频道:@hkaa0|台湾_7
-      - TG频道:@hkaa0|台湾_8
-      - TG频道:@hkaa0|台湾_9
-      - TG频道:@hkaa0|台湾_10
-      - TG频道:@hkaa0|香港_2
-      - TG频道:@hkaa0|台湾_11
       - TG频道:@hkaa0|中国_2
-      - TG频道:@hkaa0|中国_3
+      - TG频道:@hkaa0|俄罗斯联邦_1
+      - TG频道:@hkaa0|俄罗斯联邦_2
+      - TG频道:@hkaa0|俄罗斯联邦_3
+      - TG频道:@hkaa0|俄罗斯联邦_4
+      - TG频道:@hkaa0|俄罗斯联邦_5
+      - TG频道:@hkaa0|俄罗斯联邦_6
+      - TG频道:@hkaa0|俄罗斯联邦_7
+      - TG频道:@hkaa0|俄罗斯联邦_8
+      - TG频道:@hkaa0|俄罗斯联邦_9
+      - TG频道:@hkaa0|俄罗斯联邦_10
+      - TG频道:@hkaa0|俄罗斯联邦_11
+      - TG频道:@hkaa0|俄罗斯联邦_12
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG频道:@hkaa0|美国_1
       - TG频道:@hkaa0|中国_1
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|香港_1
-      - TG频道:@hkaa0|美国_3
-      - TG频道:@hkaa0|美国_4
-      - TG频道:@hkaa0|美国_5
-      - TG频道:@hkaa0|美国_6
-      - TG频道:@hkaa0|美国_7
-      - TG频道:@hkaa0|美国_8
-      - TG频道:@hkaa0|台湾_1
-      - TG频道:@hkaa0|台湾_2
-      - TG频道:@hkaa0|台湾_3
-      - TG频道:@hkaa0|台湾_4
-      - TG频道:@hkaa0|台湾_5
-      - TG频道:@hkaa0|台湾_6
-      - TG频道:@hkaa0|美国_9
-      - TG频道:@hkaa0|台湾_7
-      - TG频道:@hkaa0|台湾_8
-      - TG频道:@hkaa0|台湾_9
-      - TG频道:@hkaa0|台湾_10
-      - TG频道:@hkaa0|香港_2
-      - TG频道:@hkaa0|台湾_11
       - TG频道:@hkaa0|中国_2
-      - TG频道:@hkaa0|中国_3
+      - TG频道:@hkaa0|俄罗斯联邦_1
+      - TG频道:@hkaa0|俄罗斯联邦_2
+      - TG频道:@hkaa0|俄罗斯联邦_3
+      - TG频道:@hkaa0|俄罗斯联邦_4
+      - TG频道:@hkaa0|俄罗斯联邦_5
+      - TG频道:@hkaa0|俄罗斯联邦_6
+      - TG频道:@hkaa0|俄罗斯联邦_7
+      - TG频道:@hkaa0|俄罗斯联邦_8
+      - TG频道:@hkaa0|俄罗斯联邦_9
+      - TG频道:@hkaa0|俄罗斯联邦_10
+      - TG频道:@hkaa0|俄罗斯联邦_11
+      - TG频道:@hkaa0|俄罗斯联邦_12
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -235,31 +170,20 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TG频道:@hkaa0|美国_1
       - TG频道:@hkaa0|中国_1
-      - TG频道:@hkaa0|美国_2
-      - TG频道:@hkaa0|香港_1
-      - TG频道:@hkaa0|美国_3
-      - TG频道:@hkaa0|美国_4
-      - TG频道:@hkaa0|美国_5
-      - TG频道:@hkaa0|美国_6
-      - TG频道:@hkaa0|美国_7
-      - TG频道:@hkaa0|美国_8
-      - TG频道:@hkaa0|台湾_1
-      - TG频道:@hkaa0|台湾_2
-      - TG频道:@hkaa0|台湾_3
-      - TG频道:@hkaa0|台湾_4
-      - TG频道:@hkaa0|台湾_5
-      - TG频道:@hkaa0|台湾_6
-      - TG频道:@hkaa0|美国_9
-      - TG频道:@hkaa0|台湾_7
-      - TG频道:@hkaa0|台湾_8
-      - TG频道:@hkaa0|台湾_9
-      - TG频道:@hkaa0|台湾_10
-      - TG频道:@hkaa0|香港_2
-      - TG频道:@hkaa0|台湾_11
       - TG频道:@hkaa0|中国_2
-      - TG频道:@hkaa0|中国_3
+      - TG频道:@hkaa0|俄罗斯联邦_1
+      - TG频道:@hkaa0|俄罗斯联邦_2
+      - TG频道:@hkaa0|俄罗斯联邦_3
+      - TG频道:@hkaa0|俄罗斯联邦_4
+      - TG频道:@hkaa0|俄罗斯联邦_5
+      - TG频道:@hkaa0|俄罗斯联邦_6
+      - TG频道:@hkaa0|俄罗斯联邦_7
+      - TG频道:@hkaa0|俄罗斯联邦_8
+      - TG频道:@hkaa0|俄罗斯联邦_9
+      - TG频道:@hkaa0|俄罗斯联邦_10
+      - TG频道:@hkaa0|俄罗斯联邦_11
+      - TG频道:@hkaa0|俄罗斯联邦_12
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
